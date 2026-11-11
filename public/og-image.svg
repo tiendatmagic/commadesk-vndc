@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="og-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09223e"/>
+      <stop offset="60%" stop-color="#0d3862"/>
+      <stop offset="100%" stop-color="#164676"/>
+    </linearGradient>
+    <radialGradient id="og-glow" cx="65%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#33a3dc" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#0087ca" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#09223e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="og-text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#33a3dc"/>
+      <stop offset="50%" stop-color="#8ed1fc"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#og-bg-grad)"/>
+  <circle cx="850" cy="315" r="380" fill="url(#og-glow)"/>
+
+  <!-- Subtle Cyber Grid Pattern -->
+  <g stroke="#33a3dc" stroke-width="1" stroke-opacity="0.08">
+    <line x1="0" y1="90" x2="1200" y2="90"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="360" x2="1200" y2="360"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="150" y1="0" x2="150" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="450" y1="0" x2="450" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="750" y1="0" x2="750" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1050" y1="0" x2="1050" y2="630"/>
+  </g>
+
+  <!-- Left Content Area -->
+  <g transform="translate(100, 110)">
+    <!-- Badge -->
+    <rect width="280" height="42" rx="21" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)"/>
+    <circle cx="24" cy="21" r="5" fill="#ff6900"/>
+    <text x="38" y="26" fill="#ffffff" font-size="14" font-weight="bold" font-family="sans-serif" letter-spacing="1.5">VNDC TECHNOLOGY &amp; MEDIA</text>
+
+    <!-- Main Title -->
+    <text x="0" y="120" fill="#ffffff" font-size="52" font-weight="900" font-family="sans-serif" letter-spacing="-1">
+      Hệ thống Quản trị &amp;
+    </text>
+    <text x="0" y="180" fill="url(#og-text-grad)" font-size="52" font-weight="900" font-family="sans-serif" letter-spacing="-1">
+      Điều hành Dịch vụ Số
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="240" fill="rgba(255,255,255,0.85)" font-size="20" font-family="sans-serif">
+      WiFi Marketing (VNWIFI) • Digital Signage (VNSign) • IT Services
+    </text>
+
+    <!-- Highlights -->
+    <g transform="translate(0, 290)">
+      <rect width="210" height="64" rx="14" fill="#09223e" stroke="#33a3dc" stroke-width="1.5" stroke-opacity="0.4"/>
+      <text x="20" y="28" fill="#33a3dc" font-size="12" font-weight="bold" font-family="sans-serif">VNWIFI NODES</text>
+      <text x="20" y="52" fill="#ffffff" font-size="22" font-weight="900" font-family="sans-serif">1,280 Trạm</text>
+
+      <g transform="translate(230, 0)">
+        <rect width="210" height="64" rx="14" fill="#09223e" stroke="#33a3dc" stroke-width="1.5" stroke-opacity="0.4"/>
+        <text x="20" y="28" fill="#33a3dc" font-size="12" font-weight="bold" font-family="sans-serif">DIGITAL SIGNAGE</text>
+        <text x="20" y="52" fill="#ffffff" font-size="22" font-weight="900" font-family="sans-serif">854 Màn hình</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Logo Origami Cube Area -->
+  <g transform="translate(760, 160) scale(3.4)">
+    <!-- Cánh đa giác mở rộng bên trái -->
+    <polygon points="31.99,35.75 72.64,14.05 72.78,14.14 72.84,35.05 50.61,46.92 50.59,72.13 32.11,81.91 31.97,81.82 31.99,35.75" fill="#09223e" stroke="#33a3dc" stroke-width="0.5"/>
+    <!-- Cánh đa giác mở rộng bên phải -->
+    <polygon points="121.99,35.75 81.34,14.05 81.2,14.14 81.14,35.05 103.37,46.92 103.39,72.13 121.87,81.91 122.01,81.82 121.99,35.75" fill="#166e9e" stroke="#33a3dc" stroke-width="0.5"/>
+    <!-- Đáy khối lập phương 3D -->
+    <polygon points="76.99,113.14 116.51,89.45 116.51,89.28 98.61,78.46 76.99,91.42 55.37,78.46 37.47,89.28 37.47,89.45 76.99,113.14" fill="#33a3dc"/>
+    <!-- Mặt bên trái khối cube trung tâm -->
+    <polygon points="58.98,51.82 76.99,62.81 76.99,82.42 58.98,71.43 58.98,51.82" fill="#166e9e"/>
+    <!-- Mặt bên phải khối cube trung tâm -->
+    <polygon points="95,51.82 76.99,62.81 76.99,82.42 95,71.43 95,51.82" fill="#0d3862"/>
+    <!-- Mặt trên khối cube trung tâm -->
+    <polygon points="58.98,51.83 76.99,62.81 95,51.82 76.98,40.82 58.98,51.83" fill="#33a3dc"/>
+  </g>
+</svg>

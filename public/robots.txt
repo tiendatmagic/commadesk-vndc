@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /__commadesk/
+
+Sitemap: https://vndc.vn/sitemap.xml

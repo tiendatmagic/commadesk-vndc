@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 5 115 115">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09223e"/>
+      <stop offset="100%" stop-color="#0d3862"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="5" width="115" height="115" rx="26" fill="url(#bgGrad)"/>
+  <g transform="translate(1, 3)">
+    <!-- Cánh đa giác mở rộng bên trái -->
+    <polygon points="31.99,35.75 72.64,14.05 72.78,14.14 72.84,35.05 50.61,46.92 50.59,72.13 32.11,81.91 31.97,81.82 31.99,35.75" fill="#33a3dc" opacity="0.85"/>
+    <!-- Cánh đa giác mở rộng bên phải -->
+    <polygon points="121.99,35.75 81.34,14.05 81.2,14.14 81.14,35.05 103.37,46.92 103.39,72.13 121.87,81.91 122.01,81.82 121.99,35.75" fill="#0087ca"/>
+    <!-- Đáy khối lập phương 3D -->
+    <polygon points="76.99,113.14 116.51,89.45 116.51,89.28 98.61,78.46 76.99,91.42 55.37,78.46 37.47,89.28 37.47,89.45 76.99,113.14" fill="#33a3dc"/>
+    <!-- Mặt bên trái khối cube trung tâm -->
+    <polygon points="58.98,51.82 76.99,62.81 76.99,82.42 58.98,71.43 58.98,51.82" fill="#166e9e"/>
+    <!-- Mặt bên phải khối cube trung tâm -->
+    <polygon points="95,51.82 76.99,62.81 76.99,82.42 95,71.43 95,51.82" fill="#0087ca"/>
+    <!-- Mặt trên khối cube trung tâm -->
+    <polygon points="58.98,51.83 76.99,62.81 95,51.82 76.98,40.82 58.98,51.83" fill="#ffffff"/>
+  </g>
+</svg>
